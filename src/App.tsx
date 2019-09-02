@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import { FlatList, Dimensions } from 'react-native'
+import { FlatList } from 'react-native'
 import Item from './Item.component'
 import { withExpansion } from './withExpansion.hoc'
 

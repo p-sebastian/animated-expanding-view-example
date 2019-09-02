@@ -1,6 +1,6 @@
 import React, { useRef, useCallback, useContext } from 'react'
 import styled from 'styled-components/native'
-import { TouchableWithoutFeedback, View } from 'react-native'
+import { View } from 'react-native'
 import { ExpansionContext } from './Expansion.context'
 
 const Item: React.FC<{ item: string }> = ({ item }) => {
